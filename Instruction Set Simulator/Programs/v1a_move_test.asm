@@ -1,0 +1,10 @@
+start:
+  move 0x00
+  move 0xff
+  move 0x80
+  move 0x08
+  move 0x7f
+halt:
+  jumpu halt
+  
+  

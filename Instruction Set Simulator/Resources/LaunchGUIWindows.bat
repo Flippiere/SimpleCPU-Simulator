@@ -1,0 +1,1 @@
+Resources\pypy3.10-v7.3.15-win64\pypy.exe Resources\gui.py

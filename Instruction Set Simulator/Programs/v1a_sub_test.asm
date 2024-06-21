@@ -1,0 +1,11 @@
+start:
+  move 0x05
+  sub 0x02
+  sub 0x09
+  sub 0xff
+  sub 0x00
+  sub 0x21
+halt:
+  jumpu halt
+  
+  

@@ -1,0 +1,10 @@
+start:
+  add 0x00
+  add 0x0f
+  add 0x0f
+  add 0x0f
+  add 0xff
+halt:
+  jumpu halt
+  
+  

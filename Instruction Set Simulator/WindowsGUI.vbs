@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "Resources\LaunchGUIWindows.bat", 0, True

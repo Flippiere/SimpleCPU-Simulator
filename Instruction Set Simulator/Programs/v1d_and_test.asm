@@ -1,0 +1,31 @@
+start:
+ move ra 0x55
+ and ra 0xff
+ and ra 0xf0
+ and ra 0x0f
+ move rb 0x7f
+ and rb 0x5f
+ and rb 0x55
+ and rb 0x5f
+ and rb 0x00
+ move rc 0xff
+ call rol6rc
+ and rc 0xff
+ and rc 0x7f
+ and rc 0x0f
+ and rc 0x00
+ move rd 0x00
+ and rd 0xff
+ move rd 0x80
+ rol rd
+ and rd 0xff
+halt:
+ jumpu halt
+rol6rc:
+ rol rc
+ rol rc
+ rol rc
+ rol rc
+ rol rc
+ rol rc
+ ret

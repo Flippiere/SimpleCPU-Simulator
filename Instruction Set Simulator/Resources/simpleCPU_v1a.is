@@ -1,0 +1,11 @@
+move,(operand),00000000KKKKKKKK,immediate
+add,(operand),00010000KKKKKKKK,immediate
+sub,(operand),00100000KKKKKKKK,immediate
+and,(operand),00110000KKKKKKKK,immediate
+load,(operand),01000000KKKKKKKK,absolute
+store,(operand),01010000KKKKKKKK,absolute
+addm,(operand),01100000KKKKKKKK,absolute
+subm,(operand),01110000KKKKKKKK,absolute
+jumpu,(operand),10000000KKKKKKKK,direct
+jumpz,(operand),10010000KKKKKKKK,direct
+jumpnz,(operand),10100000KKKKKKKK,direct

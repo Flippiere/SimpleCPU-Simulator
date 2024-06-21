@@ -1,0 +1,29 @@
+start:
+  move ra 0x01
+  store ra 0xfff
+  move ra 0xff
+  store ra 0xffe
+  and ra 0xff
+  store ra 0xffd
+part1:
+  move rb 0x7f
+  move rd 0x7f
+  mul rb 0x02
+  div rb 0x02
+  mod rd 0x05
+  rol rd 0x04
+  rol8 rb
+part2:
+  load ra 0xffe
+  subm ra 0xfff
+  store ra 0xffe
+  jumpnz part1
+  move ra 0xff
+  store ra 0xffe
+  load ra 0xffd
+  subm ra 0xfff
+  store ra 0xffd
+halt:
+  jumpu halt
+  
+  
