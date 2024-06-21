@@ -1,6 +1,6 @@
 Use WindowsGUI.vbs to launch the GUI for the instruction set simulator on Windows, alternatively use LinuxGUI.sh for Unix based operating systems
 
-Assembly '.asm' files can be written and complied into compatable '.dat' files in the popup IDE menu, to open this press IDE in the toolbar
+Assembly '.asm' files can be written and assembled into compatable '.dat' files in the popup IDE menu, to open this press IDE in the toolbar
 
 To load a '.dat' files select a version of SimpleCPU, then select load from the toolbar, and navigate and select the file using the file explorer
 
