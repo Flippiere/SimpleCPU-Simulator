@@ -1,1 +1,1 @@
-My Final Year University Project. An Emulator for the SimpleCPU architecture designed by Mike Freeman which is used to teach computer architecture concepts and assembly programming, at the University of York
+My Final Year University Project. An Emulator for the SimpleCPU architecture designed by Mike Freeman which is used to teach computer architecture concepts and assembly programming, at the University of York.
